@@ -1,84 +1,72 @@
-# Amrita_AI_Research_Internship
+# Amrita AI Research Internship
 
-My 4-week internship related coding is shared under this repository
+This repository contains the work and learnings from my 4-week internship in Artificial Intelligence and Machine Learning at Amrita.
 
-## Day 1:
+---
+
+## Day 1: Neural Networks from Scratch
 
 ### Topics Covered
 
-**Neural Network from Scratch**
+* Built a Neural Network from scratch without using high-level libraries
+* Implemented forward propagation and designed network architecture
+* Implemented Stochastic Gradient Descent (SGD) for weight updates
+* Applied Mini-Batch Gradient Descent for improved training efficiency
+* Implemented backpropagation for gradient computation
+* Used Adam optimizer for adaptive learning
+* Applied L2 regularization to reduce overfitting
+* Implemented models using TensorFlow
 
-* Built a basic neural network without high-level libraries
-* Understood forward propagation and architecture design
+### Key Learnings
 
-**Stochastic Gradient Descent (SGD)**
-
-* Implemented SGD manually
-* Learned how weights are updated iteratively
-
-**Mini-Batch Gradient Descent**
-
-* Improved training efficiency using mini-batches
-* Balanced between SGD and Batch Gradient Descent
-
-**Backpropagation**
-
-* Implemented gradient computation manually
-* Understood how errors propagate through layers
-
-**Optimization Techniques**
-
-* Used Adam Optimizer for adaptive learning
-* Applied L2 Regularization to reduce overfitting
-* Implemented using TensorFlow
-
-## Day 2: Neural Network Experiments and Optimization 
-On Day 2, the focus was on implementing neural networks for logical operations and real-world datasets, along with experimenting on model optimization and feature engineering techniques.
----
-### Work Done 
-
-* **Logical Gate Visualization (AND, OR, XOR)**
-  * Visualized decision boundaries to understand linearity and non-linearity
-    
-* **Single Layer Perceptron Implementation**
-  * Built and trained perceptron models for basic logical gates
-    
-* **Multi-Layer Perceptron (MLP)**
-  * Implemented MLP to solve non-linear problems like XOR
-    
-* **Deep Neural Network for Sonar Dataset Classification**
-  * Built a dense neural network for classification
-  * Trained model on Sonar dataset
-    
-* **Model Optimization and Performance Tuning**
-  * Improved model performance by tuning:
-
-    * Number of layers
-
-    * Number of neurons
-
-    * Activation functions
-
-    * Training parameters
-
-* **Feature Reduction Experiments**
-  * Reduced features from **60 → 30** and analyzed performance
-  * Further reduced features from **30 → 20** and compared results
+* Understanding the internal working of neural networks
+* Importance of gradient-based optimization
+* Role of backpropagation in training
+* Techniques to improve convergence and reduce overfitting
 
 ---
 
+## Day 2: Neural Network Experiments and Optimization
 
-### Key Learnings 
+### Work Done
 
+* Visualized decision boundaries for logical gates (AND, OR, XOR)
+* Implemented single-layer perceptron models
+* Built Multi-Layer Perceptron (MLP) for solving non-linear problems
+* Developed a deep neural network for Sonar dataset classification
+* Tuned model performance by adjusting:
+
+  * Number of layers
+  * Number of neurons
+  * Activation functions
+  * Training parameters
+* Performed feature reduction experiments (60 → 30 → 20 features)
+
+### Key Learnings
 
 * Importance of non-linearity in solving complex problems
-
 * Difference between perceptron and multi-layer networks
-
-* Impact of architecture and hyperparameters on model performance
-
-* Understanding overfitting and underfitting through experiments
-
+* Impact of architecture and hyperparameters on performance
+* Understanding overfitting and underfitting
 * Effect of feature reduction on model accuracy and generalization
 
 ---
+
+## Day 3: Sequence Learning Models (RNN to Transformers)
+
+### Work Done
+
+* Implemented a basic Recurrent Neural Network (RNN) for sequential data
+* Analyzed vanishing and exploding gradient problems in RNNs
+* Implemented LSTM and GRU models and compared performance
+* Studied gating mechanisms for handling long-term dependencies
+* Explored attention mechanisms and Transformer architecture
+* Compared models based on performance, stability, and scalability
+
+### Key Learnings
+
+* Understanding temporal dependencies in sequential data
+* Limitations of RNNs for long sequences
+* How LSTM and GRU improve memory retention
+* Role of self-attention in capturing dependencies
+* Why Transformers are preferred for modern sequence tasks
